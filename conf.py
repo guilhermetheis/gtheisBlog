@@ -27,7 +27,7 @@ blog_baseurl = u'https://guilherme-theis.disqus.com''True'
 
 #discus_shortname
 
-disqus_shortname = 'guilhermetheisblog'
+disqus_shortname = 'guilherme-theis'
 
 # Choose to archive only post titles. Archiving only titles can speed
 # up project building.
