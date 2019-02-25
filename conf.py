@@ -29,6 +29,10 @@ blog_baseurl = u'https://guilherme-theis.disqus.com''True'
 
 disqus_shortname = 'guilherme-theis'
 
+#google analytics
+
+analytics_id = 'UA-135113128-1'
+
 # Choose to archive only post titles. Archiving only titles can speed
 # up project building.
 #blog_archive_titles = False
