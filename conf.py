@@ -31,8 +31,6 @@ disqus_shortname = 'guilherme-theis'
 
 #google analytics
 
-analytics_id = 'UA-135113128-1'
-
 # Choose to archive only post titles. Archiving only titles can speed
 # up project building.
 #blog_archive_titles = False
@@ -260,6 +258,10 @@ html_theme_options = {
     'logo': 'logo.png',
     'github_user': 'guilhermetheis',
     'github_repo': 'gtheisBlog',
+    'body_text_align': 'justify',
+    'show_powered_by': True,
+    'analytics_id' : 'UA-135113128-1',
+    #'rightsidebar': True,
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
@@ -285,6 +287,7 @@ html_theme_path = [alabaster.get_path()]
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
