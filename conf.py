@@ -23,7 +23,11 @@ blog_title = u'Guilherme\'s Blog Blog'
 
 # Base URL for the website, required for generating feeds.
 # e.g. blog_baseurl = "http://example.com/"
-blog_baseurl = u'https://wubw.github.io''True'
+blog_baseurl = u'https://guilherme-theis.disqus.com''True'
+
+#discus_shortname
+
+disqus_shortname = 'guilhermetheisblog'
 
 # Choose to archive only post titles. Archiving only titles can speed
 # up project building.
