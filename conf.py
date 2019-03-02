@@ -24,9 +24,7 @@ blog_title = u'Guilherme\'s Blog Blog'
 # Base URL for the website, required for generating feeds.
 # e.g. blog_baseurl = "http://example.com/"
 blog_baseurl = u'https://guilherme-theis.disqus.com''True'
-
 #discus_shortname
-
 disqus_shortname = 'guilherme-theis'
 
 #google analytics
@@ -231,7 +229,7 @@ exclude_patterns = []
 # output. They are ignored by default.
 #show_authors = False
 
-# The name of the Pygments (syntax highlighting) style to use.
+# The name of the Pygments (syntax highlighting) stypython -m pip install watchdogle to use.
 pygments_style = 'sphinx'
 
 # A list of ignored prefixes for module index sorting.
@@ -255,12 +253,14 @@ html_theme = 'alabaster'
 # documentation.
 html_theme_options = {
     'github_button': True,
-    'logo': 'logo.png',
+    'logo': 'gTheisBlogLogo.png',
     'github_user': 'guilhermetheis',
     'github_repo': 'gtheisBlog',
     'body_text_align': 'justify',
     'show_powered_by': True,
     'analytics_id' : 'UA-135113128-1',
+    'font_family' : "Times New Roman",
+    #'font_size': 'large',
     #'rightsidebar': True,
 }
 
